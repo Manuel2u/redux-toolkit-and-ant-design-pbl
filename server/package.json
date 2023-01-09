@@ -1,0 +1,11 @@
+{
+  "name": "redux-ant-design-pbl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Manuel_dev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3"
+  }
+}
