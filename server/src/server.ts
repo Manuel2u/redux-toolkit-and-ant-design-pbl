@@ -5,6 +5,10 @@ require("dotenv").config();
 import bodyParser from "body-parser";
 import { customError } from "./middlewares/errorMiddleware";
 
+//import routes
+import userRoutes from "./routes/user";
+import listRoutes from "./routes/list";
+
 const app = express();
 
 //use middlewares
@@ -33,3 +37,6 @@ mongoose
 
 
 //routes
+app.use("/api/user", userRoutes);
+app.use("/api/list", listRoutes);
+
